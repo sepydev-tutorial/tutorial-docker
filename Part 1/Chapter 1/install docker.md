@@ -25,4 +25,14 @@ Verify that the Docker Engine installation is successful by running the hello-wo
 sudo docker run hello-world
 ```
 
+show docker version
+```commandline
+docker version
+```
+all command should run in root mode to go to root mode you can run this command.
+```commandline
+sudo -i
+```
+after run this command you should enter root password.
+
 [For more information see docker.com](https://docs.docker.com/engine/install/ubuntu/)
